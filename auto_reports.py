@@ -73,8 +73,8 @@ def auto_report(username, password):
 
 
 if __name__ == '__main__':
-    username = ["23320201154024"]
-    password = ["buhouhui1997"]
+    username = [""]
+    password = [""]
     for i in range(0,len(username)):
         try:
             auto_report(username[i], password[i])
